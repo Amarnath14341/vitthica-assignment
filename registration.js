@@ -1,6 +1,4 @@
-export default LoginButton; 
-
- import React, { useState } from 'react'  
+import React, { useState } from 'react'  
 import axios from 'axios';
 import './App.css';  
 function Regster(props) {  
