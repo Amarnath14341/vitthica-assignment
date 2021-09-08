@@ -49,6 +49,21 @@ function Regster(props) {
 } else {
     document.getElementById("email").style.display = "none";
 }
+if (password == "") {
+              document.getElementById("Password").style.display = "block";
+          } else {
+              document.getElementById("Password").style.display = "none";
+          }
+          if (password.search(/[a-z]/i) < 0) {
+              document.getElementById("Password").style.display = "block";
+          } else {
+              document.getElementById("Password").style.display = "none";
+          }
+          if (password.search(/[0-9]/) < 0) {
+              document.getElementById("Password").style.display = "block";
+          } else {
+              document.getElementById("Password").style.display = "none";
+          }
   return false
   }
   return (  
