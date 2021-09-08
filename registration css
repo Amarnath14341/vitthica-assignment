@@ -1,0 +1,29 @@
+.user{
+  text-align: center;
+  color: rgb(8, 8, 8);
+  background-color:chartreuse ;
+}
+.align {
+  text-align: center;   
+}
+.btn{
+  color: rgb(247, 243, 244);
+  background-color: darkblue;
+}
+.btnx {
+  color: rgb(247, 242, 242);
+  background-color:brown; 
+  text-align:center;
+}
+.group{
+  margin: 5px;
+}
+.email{
+  margin: 5px;
+}
+.last{
+  margin: 5px;
+}
+.form-group row{
+  font-size: large;
+}
